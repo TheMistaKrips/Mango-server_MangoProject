@@ -21,19 +21,19 @@ json
   "message": "Mango Server работает!"
 }
 
-⚙️ Конфигурация
+## ⚙️ Конфигурация
 Порт: 3001 (или через PORT переменную окружения)
 
 bash
 PORT=4000 npm run dev
 
-📊 Хранение данных
+## 📊 Хранение данных
 const onlineUsers = new Map(); // socket.id → {id, nickname, avatar}
 
-🔗 Подключение
+## 🔗 Подключение
 const socket = io('http://localhost:3001');
 
-📋 Зависимости
+## 📋 Зависимости
 json
 {
   "express": "^4.18.2",
